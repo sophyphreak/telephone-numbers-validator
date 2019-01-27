@@ -6,7 +6,7 @@ const {
   howManyDashes,
   howManySpaces,
   howManyParentheses
-} = require('../helpers');
+} = require('../src/isTelephoneNumber/helpers');
 
 describe('helpers', () => {
   describe('takeOutNonNumbers()', () => {

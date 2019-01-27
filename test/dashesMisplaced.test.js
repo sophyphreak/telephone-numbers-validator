@@ -2,14 +2,14 @@ const expect = require('chai').expect;
 
 const {
   howManyDashes
-} = require('../helpers');
+} = require('../src/isTelephoneNumber/helpers');
 
 const {
   dashesMisplaced,
   twoDashesWrongPlaces,
   oneDashWrongPlace,
   hasParentheses
-} = require('../dashesMisplaced');
+} = require('../src/isTelephoneNumber/dashesMisplaced');
 
 describe('dashesMisplaced.js', () => {
   describe('dashesMisplaced()', () => {

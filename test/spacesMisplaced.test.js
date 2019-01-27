@@ -1,13 +1,13 @@
 const expect = require('chai').expect;
 
-const { howManySpaces } = require('../helpers');
+const { howManySpaces } = require('../src/isTelephoneNumber/helpers');
 
 const {
   spacesMisplaced,
   threeSpacesWrongPlaces,
   twoSpacesWrongPlaces,
   oneSpaceWrongPlace
-} = require('../spacesMisplaced');
+} = require('../src/isTelephoneNumber/spacesMisplaced');
 
 describe('spacesMisplaced.js', () => {
   describe('spacesMisplaced()', () => {

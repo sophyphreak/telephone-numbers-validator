@@ -1,3 +1,12 @@
+// examples of valid phone numbers:
+
+// 555-555-5555
+// (555)555-5555
+// (555) 555-5555
+// 555 555 5555
+// 5555555555
+// 1 555 555 5555
+
 const {
   takeOutNonNumbers,
   hasInvalidChars,
@@ -15,7 +24,7 @@ const { dashesMisplaced } = require('./dashesMisplaced');
 
 const { spacesMisplaced } = require('./spacesMisplaced');
 
-const telephoneCheck = inputStr => {
+const isTelephoneNumber = inputStr => {
   if (hasInvalidChars(inputStr)) {
     return false;
   }
@@ -54,5 +63,5 @@ const telephoneCheck = inputStr => {
 };
 
 module.exports = {
-  telephoneCheck
+  isTelephoneNumber
 }

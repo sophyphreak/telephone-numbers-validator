@@ -2,13 +2,13 @@ const expect = require('chai').expect;
 
 const {
   takeOutNonNumbers
-} = require('../helpers');
+} = require('../src/isTelephoneNumber/helpers');
 
 const {
   parenthesesMisplaced,
   spaceAfterFirstNumber,
   notParenthesesAndThreeNumbers
-} = require('../parenthesesMisplaced');
+} = require('../src/isTelephoneNumber/parenthesesMisplaced');
 
 describe('parenthesesMisplaced.js', () => {
   describe('parenthesesMisplaces()', () => {
